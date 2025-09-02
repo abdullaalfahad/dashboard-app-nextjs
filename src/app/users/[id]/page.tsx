@@ -12,7 +12,7 @@ export default async function UserDetailsPage({ params }: UserDetailsPageProps) 
 
   return (
     <div className="space-y-6">
-      <Link href="/users">
+      <Link href="/" className="mb-6">
         <Button variant="outline">← Back to Users</Button>
       </Link>
       <UserDetailsCard user={user} />
